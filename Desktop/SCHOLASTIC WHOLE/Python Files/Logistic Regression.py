@@ -1,4 +1,11 @@
-#%%
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Feb 14 8:30:16 2020
+
+@author: mac
+"""
+
 import pyodbc
 import pandas
 from sklearn.linear_model import LogisticRegression
