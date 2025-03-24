@@ -2,10 +2,14 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Feb 14 8:30:16 2020
+# Apply decorator to modify function behavior
 
 @author: mac
 """
 
+#----------------------------------------------------------------------
+# IMPORTS
+#----------------------------------------------------------------------
 import matplotlib.pyplot as plt
 import numpy
 import pandas
@@ -202,7 +206,10 @@ ax.grid(False)
 ax.xaxis.set(ticks=(0, 1), ticklabels=("Predicted 0s", "Predicted 1s"))
 ax.yaxis.set(ticks=(0, 1), ticklabels=("Actual 0s", "Actual 1s"))
 ax.set_ylim(1.5, -0.5)
+# Iterate through elements
 for i in range(2):
+# Iterate through elements
     for j in range(2):
         ax.text(j, i, cm[i, j], ha="center", va="center", color="red")
+# Display the current figure
 plt.show()

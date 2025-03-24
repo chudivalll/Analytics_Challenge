@@ -1,0 +1,20 @@
+2025-03-24 13:22:48,181 - python.logger - INFO - ==== Starting GitHub Codebase Cleanup ====
+2025-03-24 13:22:48,181 - python.logger - INFO - Repository root: C:\Users\chudi\Desktop\FirstOne\Github_Repos\Analytics_Challenge
+2025-03-24 13:22:48,182 - python.logger - INFO - Initializing components...
+2025-03-24 13:22:48,185 - python.logger - INFO - Components initialized successfully
+2025-03-24 13:22:48,186 - python.logger - INFO - Classifying files...
+2025-03-24 13:22:48,236 - python.logger - INFO - File classification summary:
+2025-03-24 13:22:48,236 - python.logger - INFO -   - python: 2 files
+2025-03-24 13:22:48,237 - python.logger - INFO -   - javascript: 0 files
+2025-03-24 13:22:48,238 - python.logger - INFO -   - typescript: 0 files
+2025-03-24 13:22:48,238 - python.logger - INFO -   - html: 0 files
+2025-03-24 13:22:48,239 - python.logger - INFO -   - css: 0 files
+2025-03-24 13:22:48,239 - python.logger - INFO -   - documentation: 1 files
+2025-03-24 13:22:48,240 - python.logger - INFO -   - data: 7 files
+2025-03-24 13:22:48,240 - python.logger - INFO -   - images: 1 files
+2025-03-24 13:22:48,241 - python.logger - INFO - Cleaning Python code...
+2025-03-24 13:22:48,241 - python.logger - INFO - README files will be preserved (not modified)
+2025-03-24 13:22:48,242 - python.logger - INFO - Found 2 Python files to clean
+2025-03-24 13:22:48,242 - python.logger - INFO - Processing file 1/2: C:\Users\chudi\Desktop\FirstOne\Github_Repos\Analytics_Challenge\python\Logistic Regression.py
+2025-03-24 13:22:48,569 - python.logger - INFO - Processing file 2/2: C:\Users\chudi\Desktop\FirstOne\Github_Repos\Analytics_Challenge\python\WebScrape.py
+2025-03-24 13:22:48,629 - python.logger - INFO - ==== GitHub Codebase Cleanup completed successfully ====

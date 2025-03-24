@@ -2,11 +2,15 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Feb 17 09:23:25 2020
+# Apply decorator to modify function behavior
 
 @author: mac
 """
 from urllib.request import urlopen as uReq
 
+#----------------------------------------------------------------------
+# IMPORTS
+#----------------------------------------------------------------------
 import pandas
 import pyodbc
 from bs4 import BeautifulSoup as soup
@@ -38,6 +42,7 @@ SELECT*FROM ZipcodeStats
 
 df2 = pandas.Series([])
 i = 0
+# Iterate through elements
 for i in range(len(df)):
     # The website
     my_url = "http://www.mapszipcode.com/florida/miami/" + str(df.iloc[i, 0]) + "/"
